@@ -1,1 +1,46 @@
+## Respostas para as questões de Agentes Inteligentes.
 
+15/10/2025
+
+### Questão 2.1 Suponha que a medida de desempenho preocupa-se apenas com os T primeiros passos de tempo do ambiente e ignora tudo a partir de então. 
+Mostre que a ação de um agente racional depende não apenas do estado do ambiente, mas também do passo de tempo que ele alcançou. 
+
+ -Resposta:
+A questão da racionalidade de um agente depende de quatro fatores:
+1. medida de desempenho
+2. conhecimento prévio do ambiente
+3. ações que o agente pode executar
+4. sequência de percepções do agente até o momento
+A questão temporal traz limitações para o agente decidir suas ações por fornecer a ele uma instância final para avaliar seu próximo passo, ao mesmo tempo
+em que o ambiente pode mudar logo em seguida. Tendo chegado ao limite de tempo, a última instância do ambiente e de sua ação, se tornam o único referencial 
+para a tomada de decisão que deve ser aquela que maximiza o desempenho final. O agente pode não ser capaz de definir a nova instância do ambiente que pode exigir
+uma ação diferente da anterior e pode vir a agir irracionalmente. 
+
+### Questão 2.3 Para cada uma das seguintes afirmações, diga se é verdadeiro ou falso e justifique com exemplos: 
+b. Existem ambientes de tarefa nos quais nenhum agente reativo puro pode comportar-se racionalmente. 
+c. Existe um ambiente de tarefa em que todo agente é racional. 
+d. A entrada para o programa de agente é a mesma que a entrada para a função de agente. 
+e. Toda função de agente é implementável por uma combinação de programa/máquina. 
+f. Suponha que um agente selecione sua ação uniformemente ao acaso do conjunto de ações possíveis. Existe um ambiente de tarefa determinista em que esse agente é racional. 
+g. É possível para um dado agente ser perfeitamente racional em dois ambientes de tarefa distintos. 
+h. Todo agente é racional em um ambiente não observável. 
+i. Um agente jogador de pôquer perfeitamente racional nunca perde. 
+
+-Respostas:
+b) Verdadeiro. Um agente reativo puro está limitado à percepção atual, não sendo capaz de construir modelos internos do ambiente,
+limitando-o a ações também limitadas. Como exemplo, podemos pensar em um robô que anda por um labirinto com portas que se fecham e abrem
+aleatoriamente. Se o robô agente não tem memória e uma porta se fecha, não será possível saber se aquele caminho já foi percorrido.
+
+c) Verdadeiro. Consideradas infinitas possibilidades de ambientes, é possível para todo tipo de agente ser racional, 
+que é poder selecionar ações que maximizam sua medida de desempenho com base nas percepções e no conhecimento disponível.
+Em um ambiente imaginário plano e infinito, se suas ações são de andar para todos os lados, não há qualquer impedimento para
+a execução das ações. Ele continuará andando e atingindo seu objetivo, que é andar.
+
+d) Falso. Devemos considerar que as entradas para o programa são aquelas pré-conhecidas pelo agente e as de função, mais abrangentes.
+Podemos considerar o fato que um agente é 'fabricado' com percepções de ambiente e ações pré-definidas. Ao entrar em contato com 
+outros ambientes desconhecidos, sua percepção do ambiente será diferente.
+
+e) Falso. Considerando que as funções de agente são modelos matemáticos que mapeiam todas as sequências de possíveis percepções para a tomada de ação,
+seria necessário termos condições de memória e tempo infinitos para armazenar e computar as infinitas possibilidades.
+Podemos considerar o mundo real, no qual, mesmo sabendo de padrões, somos afetados por condições inesperadas a todo momento. Não é possível prever 
+todo o futuro, por mais imediato que seja, mesmo tendo experiências de uma vida toda.
