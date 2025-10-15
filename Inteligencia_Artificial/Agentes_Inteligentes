@@ -44,3 +44,60 @@ e) Falso. Considerando que as funções de agente são modelos matemáticos que 
 seria necessário termos condições de memória e tempo infinitos para armazenar e computar as infinitas possibilidades.
 Podemos considerar o mundo real, no qual, mesmo sabendo de padrões, somos afetados por condições inesperadas a todo momento. Não é possível prever 
 todo o futuro, por mais imediato que seja, mesmo tendo experiências de uma vida toda.
+
+f) Verdadeiro. Se o agente for capaz, mesmo que aleatóriamente, de realizar uma ação que maximize sua medida de desempenho, ele será racional naquela instância.
+Podemos imaginar um ambiente determinista em que qualquer ação realizada é recompensada positivamente. Neste ambiente, qualquer ação maximizará a medida de desempenho.
+
+g) Verdadeiro, desde que as ações do agente maximizem a medida de desempenho esperada em ambos os ambientes.
+Se em ambiente A, a ação 1 leva ao sucesso e no ambiente B, a mesma ação também leva ao sucesso, mesmo que os contextos sejam diferentes,
+então o agente pode sim ser racional em ambientes distintos.
+
+h) Falso. Poquer é um jogo de informações incompletas e para ganhar, é necessário utilizar lógica, probabilidade e por último, ter 'sorte'. 
+É possível prever várias jogadas e cartas que outros jogadores possuem, mas o fato de o jogo envolver apostas com blefes, troca de estratégias 
+dos oponentes e a aleatoriedade das possíveis jogadas, não permitem que o agente sempre ganhe.
+
+### 2.4 Para cada uma das seguintes atividades, 
+forneça uma descrição PEAS do ambiente da tarefa e
+caracterize-o em termos das propriedades listadas no Slides 
+
+1. Jogar futebol. 
+P: fazer gols, dar assistência, ganhar o jogo
+E: campo de futebol, campinho de terra, campo de areia, rua com chinelos como gol
+A: pernas, braços, cabeça
+S: olhos, ouvido
+
+2. Explorar os oceanos subterrâneos de Titã. (vou considerar um submarino não tripulado)
+P: poder submergir e emergir, obter imagens
+E: mares, oceanos
+A: propulsores, leme 
+S: câmeras e sensores ópticos, sensores de profundidade, pressão, velocidade, GPS, sensores do motor, receptores de sinal
+
+3. Comprar livros usados de IA na Internet. 
+P: encontrar livros relevantes, estado de conservação dos livros, menor preço, tempo de compra
+E: world wide web (sites, marketplaces, apps), catálogo de livros, sistema de pagamento, conexão com internet
+A: mouse e teclado (físico/digital), navegador web
+S: monitor, resposta dos servidores, informações dos livros
+
+4. Jogar uma partida de tênis. 
+P: marcar pontos, ganhar sets, games e a partida em si
+E: quadras de tênis (saibro, grama, cimento), bola de tênis, adversário, regras
+A: raquete, braços, pernas
+S: olhos, ouvido (escutar instruções do juíz)
+
+5. Praticar tênis contra uma parede. 
+P: rebater a bola repetidamente, precisão da rebatida, tempo de prática
+E: local com espaço suficiente e ao menos uma parede, bola
+A: raquete, braços, pernas
+S: olhos, ouvido
+
+6. Realizar um salto de altura. 
+P: altura atingida, técnica aplicada corretamente, número de tentativas, segurança
+E: pista de corrida e área de salto, barra horizontal, colchão de aterrissagem, regras
+A: pernas, braços, tronco
+S: visão, audição (instruções do juíz)
+
+7. Licitações de um item em um leilão. 
+P: preço baixo, itens desejados, qualidade do item, número de vitórias, tempo de resposta às ofertas
+E: plataforma de leilão (online ou local), outros licitantes, regras do leilão, informações sobre o item
+A: mouse e teclado, voz, gestos, envio de lances
+S: interface visual (online), olhos, ouvidos, feedback do sistema (saber se ganhou, perdeu)
